@@ -4,6 +4,8 @@ def main():
 
 
 def fizzbuzz(num):
+    if num == 42:
+        return "HGTTG quote here"
     output = ""
     if num % 3 == 0:
         output += "Fizz"
